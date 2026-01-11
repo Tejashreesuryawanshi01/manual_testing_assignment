@@ -1,0 +1,40 @@
+Automation Testing Instructions
+
+Tool Used:
+Selenium WebDriver
+
+Programming Language:
+Java
+
+Build Tool:
+Maven
+
+IDE:
+IntelliJ IDEA
+
+Browser:
+Google Chrome
+
+Automated Scenarios:
+1. Sign in with invalid credentials
+2. Sign in with valid credentials
+
+Setup Instructions:
+1. Install Java (JDK 8 or above)
+2. Install IntelliJ IDEA or any Java IDE
+3. Install Google Chrome browser
+4. Open the Automation folder as a Maven project in IntelliJ IDEA
+5. Allow Maven to download all required dependencies
+
+Steps to Execute the Test:
+1. Open the project in IntelliJ IDEA
+2. Navigate to src/test/java
+3. Open the automation test class SignIn_Test.java
+4. Right-click on SignIn_Test.java
+5. Click Run
+6. Chrome browser will open and execute the automated steps
+
+Note:
+  - Dummy credentials are used in the automation script for demonstration purposes.
+  - The script supports both valid and invalid sign-in scenarios.
+  - No real user credentials are included.
